@@ -1,0 +1,104 @@
+{
+  "i18n": {
+    "en-US": {
+      "name": "My QR-code"
+    }
+  },
+  "defaultLanguage": "en-US",
+  "app": {
+    "appIdType": 0,
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "cover": [],
+    "appId": 27203,
+    "appName": "My QR-code",
+    "icon": "icon.png",
+    "vender": "gsom",
+    "description": "My QR-code",
+    "vernderId": 1
+  },
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "gtr-3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts-3/home/index"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#ff7f27",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "designWidth": 480,
+      "platforms": [
+        {
+          "name": "gtr-3-pro",
+          "deviceSource": 245
+        }
+      ]
+    },
+    "gtr-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts-3/home/index"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#ff7f27",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "designWidth": 454,
+      "platforms": [
+        {
+          "name": "gtr-3",
+          "deviceSource": 245
+        }
+      ]
+    },
+    "gts-3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts-3/home/index"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "",
+            "backgroundColor": "#ff7f27",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "designWidth": 390,
+      "platforms": [
+        {
+          "name": "gts-3",
+          "deviceSource": 245
+        }
+      ]
+    }
+  },
+  "configVersion": "v2",
+  "permissions": [],
+  "debug": false
+}
